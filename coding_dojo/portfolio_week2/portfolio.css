@@ -1,6 +1,6 @@
 .header{
   background-color: #f7f7f7;
-  width: 940;
+  width: 940px;
   height: 45px;
   padding: 15px;
 }
@@ -19,8 +19,64 @@
 }
 
 .container {
-  width: 100%;
+  width: 940px;
   height: 800px;
-  background: radial-gradient(#6f5964 5%, #69535d 15%, #1f0e13 80%); 
+  background: radial-gradient(#6f5964 5%, #69535d 15%, #1f0e13 80%);
   padding: 15px;
+}
+
+.portrait{
+  width: 430px;
+  height: 225px;
+  background-color: #c0c0c0;
+  margin-right: 10px;
+  display: inline-block;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.about{
+  width: 475px;
+  height: 50px;
+  margin-left: 10px;
+  background: radial-gradient(#acabb0 10%, #878593 80%, #b0b0b4 30%, #878593 25%);
+
+  display: inline-block;
+  vertical-align: top
+}
+
+.about h3{
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 8px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+}
+
+.introduction {
+  width: inherit;
+  background-color: #fdfdfd;
+  font-family: sans-serif;
+  padding-bottom: 25px;
+  font-size: 15px;
+  vertical-align: top;
+
+}
+
+.introduction p{
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.introduction a{
+  margin-left: 10px;
+}
+
+.lamode{
+
+}
+
+.lamode h3{
+  background-color:rgba(0, 0, 0, 0.5);
 }
