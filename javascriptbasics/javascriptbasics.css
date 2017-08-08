@@ -52,7 +52,9 @@
   display: block;
 }
 
-#h1{
+h1{
   font-size: 14;
   font-style: normal;
+  color: green;
+  
 }
