@@ -1,3 +1,8 @@
+.wrapper{
+  width: 960px;
+  height: 800px;
+}
+
 .header{
   background-color: #f7f7f7;
   width: 940px;
@@ -71,6 +76,13 @@
 
 .introduction a{
   margin-left: 10px;
+}
+
+.maincontent{
+  width:940px;
+  height: 500px;
+  outline: 2px dotted red;
+  display: inline;
 }
 
 .lamode{
