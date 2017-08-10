@@ -62,11 +62,11 @@
   height: 35px;
   color: #fdfdfd;
   font-family: sans-serif;
-  background: #acabb0; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#acabb0, #878593); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#acabb0, #878593); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#acabb0, #878593); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#acabb0, #878593); /* Standard syntax */
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
 }
 
 .about p{
@@ -101,11 +101,11 @@
   padding-bottom: 5px;
   color: #fdfdfd;
   font-family: sans-serif;
-  background: #acabb0; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#acabb0, #878593); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#acabb0, #878593); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#acabb0, #878593); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#acabb0, #878593); /* Standard syntax */
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
 
 }
 
@@ -131,11 +131,11 @@
   padding-bottom: 5px;
   color: #fdfdfd;
   font-family: sans-serif;
-  background: #acabb0; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#acabb0, #878593); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#acabb0, #878593); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#acabb0, #878593); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#acabb0, #878593); /* Standard syntax */
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
   vertical-align: top;
 }
 
@@ -145,6 +145,20 @@
   margin-left: 8px;
   margin-top: 5px;
   display: inline-block;
+  vertical-align: top;
+}
+
+#lamode{
+  margin-top: 5px;
+  margin-left: 110px;
+  width: 60px;
+  height: 20px;
+  font-size: 14px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: #407d61;
+  box-shadow: 5px 5px 5px #888888;
   vertical-align: top;
 }
 
@@ -168,11 +182,11 @@
   padding-bottom: 5px;
   color: #fdfdfd;
   font-family: sans-serif;
-  background: #acabb0; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#acabb0, #878593); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#acabb0, #878593); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#acabb0, #878593); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#acabb0, #878593); /* Standard syntax */
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
 }
 
 .family img{
@@ -197,11 +211,11 @@
   padding-bottom: 5px;
   color: #fdfdfd;
   font-family: sans-serif;
-  background: #acabb0; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#acabb0, #878593); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#acabb0, #878593); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#acabb0, #878593); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#acabb0, #878593); /* Standard syntax */
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
 }
 
 .techimages2 img{
@@ -210,6 +224,20 @@
   margin-left: 8px;
   margin-top: 5px;
   display: inline-block;
+  vertical-align: top;
+}
+
+#family{
+  margin-top: 5px;
+  margin-left: 90px;
+  width: 105px;
+  height: 20px;
+  font-size: 14px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: #407d61;
+  box-shadow: 5px 5px 5px #888888;
   vertical-align: top;
 }
 
@@ -233,11 +261,11 @@
   padding-bottom: 5px;
   color: #fdfdfd;
   font-family: sans-serif;
-  background: #acabb0; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#acabb0, #878593); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#acabb0, #878593); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#acabb0, #878593); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#acabb0, #878593); /* Standard syntax */
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
 }
 
 .fiveeleven img{
@@ -262,11 +290,11 @@
   padding-bottom: 5px;
   color: #fdfdfd;
   font-family: sans-serif;
-  background: #acabb0; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#acabb0, #878593); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#acabb0, #878593); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#acabb0, #878593); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#acabb0, #878593); /* Standard syntax */
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
 }
 
 .techimages3 img{
@@ -278,8 +306,42 @@
   vertical-align: top;
 }
 
+#fiveeleven{
+  margin-top: 5px;
+  margin-left: 105px;
+  width: 70px;
+  height: 20px;
+  font-size: 14px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: #407d61;
+  box-shadow: 5px 5px 5px #888888;
+  vertical-align: top;
+}
+
 .footer{
   width: 960px;
   height: 75px;
-  background-color: yellow;
+  background-color: #f7f7f7;
+}
+
+.footer p{
+  margin-left: 350px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+.footer ul{
+  white-space: nowrap;
+}
+
+.footer ul, li, img, a{
+  margin-top: 15px;
+  width: 25px;
+  height: 25px;
+  list-style: none;
+  display: inline;
+  font-family: sans-serif;
+  color: black;
 }
