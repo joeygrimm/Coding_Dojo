@@ -1,0 +1,347 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 960px;
+  height: 1000px;
+}
+.header{
+  width: 960px;
+  height: 75px;
+  background-color: #f7f7f7;
+}
+
+.header h1{
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: cursive;
+  display: inline-block;
+}
+
+.header h3{
+  margin-left: 440px;
+  font-family: sans-serif;
+  display: inline-block;
+}
+
+.body{
+  width: 960px;
+  height: 850px;
+  background: radial-gradient(#6f5964 5%, #69535d 15%, #1f0e13 80%);
+}
+
+.body img{
+  width: 400px;
+  height: 253px;
+  margin-top: 20px;
+  margin-left: 20px;
+  display: inline-block;
+  border: 5px solid gray;
+}
+
+.about{
+  width: 480px;
+  height: 263px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: #ffffff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ffffff, #dacbd9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ffffff, #dacbd9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ffffff, #dacbd9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ffffff, #dacbd9); /* Standard syntax */
+
+}
+
+.about h3{
+  padding-top: 10px;
+  padding-left: 5px;
+  height: 35px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
+}
+
+.about p{
+  height: 95px;
+  font-family: sans-serif;
+  padding-left: 5px;
+}
+
+.about a{
+  font-family: sans-serif;
+  display: inline;
+  padding-left: 5px;
+}
+
+.lamode{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 290px;
+  height: 520px;
+  display: inline-block;
+  vertical-align: top;
+  background: #ffffff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ffffff, #dacbd9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ffffff, #dacbd9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ffffff, #dacbd9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ffffff, #dacbd9); /* Standard syntax */
+}
+
+.lamode h3{
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
+
+}
+
+.lamode img{
+  margin: 0;
+  border: 0;
+  width: 290px;
+  height: 160px;
+  vertical-align: top;
+}
+
+.lamode p{
+  height: 160px;
+  padding: 5px;
+  font-family:sans-serif;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.lamode h4{
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
+  vertical-align: top;
+}
+
+.techimages1 img{
+  width: 45px;
+  height: 35px;
+  margin-left: 8px;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#lamode{
+  margin-top: 5px;
+  margin-left: 110px;
+  width: 60px;
+  height: 20px;
+  font-size: 14px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: #407d61;
+  box-shadow: 5px 5px 5px #888888;
+  vertical-align: top;
+}
+
+.family {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 290px;
+  height: 520px;
+  display: inline-block;
+  vertical-align: top;
+  background: #ffffff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ffffff, #dacbd9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ffffff, #dacbd9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ffffff, #dacbd9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ffffff, #dacbd9); /* Standard syntax */
+}
+
+.family h3{
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
+}
+
+.family img{
+  margin: 0;
+  border: 0;
+  width: 290px;
+  height: 160px;
+  vertical-align: top;
+}
+
+.family p{
+  height: 160px;
+  padding: 5px;
+  font-family:sans-serif;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.family h4{
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
+}
+
+.techimages2 img{
+  width: 45px;
+  height: 35px;
+  margin-left: 8px;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#family{
+  margin-top: 5px;
+  margin-left: 90px;
+  width: 105px;
+  height: 20px;
+  font-size: 14px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: #407d61;
+  box-shadow: 5px 5px 5px #888888;
+  vertical-align: top;
+}
+
+.fiveeleven{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 290px;
+  height: 520px;
+  display: inline-block;
+  vertical-align: top;
+  background: #ffffff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #ffffff, #dacbd9); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #ffffff, #dacbd9); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #ffffff, #dacbd9); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #ffffff, #dacbd9); /* Standard syntax */
+}
+
+.fiveeleven h3{
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
+}
+
+.fiveeleven img{
+  margin: 0;
+  border: 0;
+  width: 290px;
+  height: 160px;
+  vertical-align: top;
+}
+
+.fiveeleven p{
+  height: 160px;
+  padding: 5px;
+  font-family:sans-serif;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.fiveeleven h4{
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  background: #aaa9af; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#aaa9af, #8d8b98, #aaa9af); /* Standard syntax */
+}
+
+.techimages3 img{
+  width: 45px;
+  height: 35px;
+  margin-left: 8px;
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#fiveeleven{
+  margin-top: 5px;
+  margin-left: 105px;
+  width: 70px;
+  height: 20px;
+  font-size: 14px;
+  color: #fdfdfd;
+  font-family: sans-serif;
+  border-radius: 10px;
+  background-color: #407d61;
+  box-shadow: 5px 5px 5px #888888;
+  vertical-align: top;
+}
+
+.footer{
+  width: 960px;
+  height: 75px;
+  background-color: #f7f7f7;
+}
+
+.footer p{
+  margin-left: 350px;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+
+.footer ul{
+  white-space: nowrap;
+}
+
+.footer ul, li, img, a{
+  margin-top: 15px;
+  width: 25px;
+  height: 25px;
+  list-style: none;
+  display: inline;
+  font-family: sans-serif;
+  color: black;
+}
