@@ -1,0 +1,239 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.wrapper{
+  width: 960px;
+  background-color: #245176;
+  color: white;
+}
+
+.header{
+  width: 960px;
+  background-color: #245176;
+  display: inline-block;
+  position: relative;
+}
+
+.header img{
+  width: 360px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+ .header p#white {
+   margin-left: 320px;
+   margin-top: 10px;
+   font-family: sans-serif;
+   color: white;
+   display: inline-block;
+   vertical-align: top
+}
+
+.header a{
+  margin-top: 10px;
+  font-family: sans-serif;
+  color: #ceaf05;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header p#black {
+  margin-top: 10px;
+  font-family: sans-serif;
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.form {
+  width: 325px;
+  height: 75px;
+  background-color: #444444;
+  margin: 10;
+  vertical-align: top;
+  position: absolute;
+  top: 30px;
+  left: 620px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #262727;
+
+}
+
+.form input[type="search"]{
+  color: gray;
+  padding: 5px;
+  margin-left: 50px;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.form input[type="submit"]{
+color: white;
+border-radius: 5px;
+background-color: #245176;
+padding: 5px;
+}
+
+.bar{
+  width: 830px;
+  height: 60px;
+  padding-left: 5px;
+  border-radius: 5px;
+  background-color: #3d79ad;
+  box-shadow: 5px 5px 5px #262727;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 75px;
+}
+
+.bar p{
+  margin-left: 30px;
+  margin-top: 16px;
+  font-size: 23px;
+  font-family: sans-serif;
+  color: #e5edf3;
+  display: inline-block;
+}
+
+.content{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sidenav{
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 75px;
+  margin-top: 25px;
+
+}
+
+.sidenav li{
+  margin: 13px;
+
+}
+
+.sidenav a{
+  margin: 0;
+  color: white;
+
+}
+
+.sidenav span{
+  color: #cbad04;
+  font-size: 9px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-right: 3px;
+  margin-top: 5px;
+
+}
+
+.main-content{
+  display: inline-block;
+  width: 600px;
+  text-align: center;
+  vertical-align: top;
+  margin-left: 20px;
+  margin-top: 30px;
+  color: white;
+}
+
+.main-content p{
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.main-content h3{
+  font-weight: normal;
+  color: #cbad04;
+  font-style: italic;
+  margin: 5px;
+}
+
+.main-content h4{
+  font-weight: normal;
+  margin: 15px;
+}
+
+.middle{
+  width: 960px;
+  height: 220px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0;
+}
+
+#left{
+    width: 400px;
+    margin-left: 30px;
+    border-top: 4px solid #73a7d5;
+    color: black;
+    text-align: center;
+}
+
+#right{
+    width: 400px;
+    border-top: 4px solid #73a7d5;
+    color: black;
+    text-align: center;
+}
+
+.middle h4{
+    margin: 10px;
+}
+.middle p{
+    font-size: 14px;
+    width: 300px;
+    margin: 0px auto 5px auto;
+}
+.middle span{
+    color: #88b4db;
+}
+.middle ul{
+    list-style: square;
+    margin-left: 75px;
+    width: 400px;
+}
+.middle li a{
+    margin-left: -125px;
+    text-decoration: none;
+    color: #88b4db;
+    font-size: 14px;
+}
+
+.footer{
+  width: 960px;
+  height: 125px;
+  background: #245177; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#245177, #3877ae); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#245177, #3877ae); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#245177, #3877ae); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#245177, #3877ae); /* Standard syntax */
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer ul{
+  list-style: none;
+  margin: 40px auto 20px auto;
+}
+
+.footer li{
+  display: inline-block;
+  margin: 20px;
+  color: #7dafdb;
+}
+
+.footer p{
+  font-size: 10px;
+  height: 20px;
+  color: #7dafdb;
+}
