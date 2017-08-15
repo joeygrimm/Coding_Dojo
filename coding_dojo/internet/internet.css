@@ -39,11 +39,11 @@
   background: -o-linear-gradient(#306da2, #5283ab, #306da2); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(#306da2, #5283ab #306da2,); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#306da2, #5283ab, #306da2); /* Standard syntax (must be last) */
-color: white;
-font-weight: normal;
-padding-bottom: 11px;
-padding-top: 5px;
-padding-left: 10px;
+  color: white;
+  font-weight: normal;
+  padding-bottom: 11px;
+  padding-top: 10px;
+  padding-left: 10px;
 
 }
 
@@ -109,6 +109,10 @@ a#greenlink{
   border-radius: 5px;
   box-shadow: 3px 3px 3px gray;
   display: inline-block;
+}
+
+p#pborder{
+  border-bottom: 1px solid black;
 }
 
 #side2{
