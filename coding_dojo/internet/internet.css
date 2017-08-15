@@ -1,0 +1,302 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#wrapper{
+  width: 960px;
+  height: 900px;
+}
+
+#top{
+  width: 960px;
+  height: 140px;
+  display: inline-block;
+}
+
+#top img{
+  width: 75px;
+  display: inline-block;
+  background-color: white;
+}
+
+#top p{
+  display: inline-block;
+  font-size: 50px;
+  color: #545454;
+  background-color: white;
+}
+
+#top span{
+  color: #4d87b7;
+  display: inline-block;
+}
+
+#top h1{
+  background: #306da2;
+  background: -webkit-linear-gradient(#306da2, #5283ab, #306da2); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#306da2, #5283ab, #306da2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#306da2, #5283ab #306da2,); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#306da2, #5283ab, #306da2); /* Standard syntax (must be last) */
+color: white;
+font-weight: normal;
+padding-bottom: 11px;
+padding-top: 5px;
+padding-left: 10px;
+
+}
+
+#side{
+  width:200px;
+  height: 600px;
+  vertical-align: top;
+  display: inline-block;
+  background: #e7e7e7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#e7e7e7,white, white, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e7e7e7, white, white, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e7e7e7,white, white, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e7e7e7, white, white, white); /* Standard syntax (must be last) */
+  position: relative;
+}
+
+#side h3{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 3px;
+}
+
+#side a{
+  color: red;
+  text-decoration: none;
+}
+
+#side p{
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 3px;
+  margin-bottom: 20px;
+}
+
+#side  span{
+  color: #4d87b7;
+}
+
+a#bluelink{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 10px 36px;
+  color: white;
+  background-color: #4d87b7;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+  display: inline-block;
+}
+
+a#greenlink{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 10px 25px;
+  color: white;
+  background-color: #ef7c00;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+  display: inline-block;
+}
+
+#side2{
+  width: 200px;
+  margin-top: 30px;
+  border-top: 4px solid black;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  background-image: url("ad_background.png");
+}
+
+#side2 p{
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#side2 img{
+  margin-left: 0px;
+  margin-bottom: 15px;
+  width: 100px;
+  display: inline-block;
+}
+
+a#lightbluelink{
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 5px 34px;
+  color: white;
+  background-color: #35c8df;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  display: inline-block;
+}
+
+#lightbluelink span{
+  font-size: 10px;
+  color: #d6f3f9;
+  opacity: 0.8;
+}
+
+#middle{
+  width: 760px;
+  height: 681px;
+  vertical-align: top;
+  background: #e7e7e7; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#e7e7e7,white, white, white); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e7e7e7, white, white, white); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e7e7e7,white, white, white); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e7e7e7, white, white, white); /* Standard syntax (must be last) */
+  position: absolute;
+  top: 140px;
+  left: 200px;
+}
+
+#banner{
+  width: 665px;
+  height: 100px;
+  border-bottom: 1px solid black;
+  margin-left: 75px;
+}
+
+img#home{
+  width: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+
+p#dng{
+  color: #2c6ca2;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 8px;
+  font-size: 25px;
+}
+
+img#phone{
+  vertical-align: top;
+  width: 60px;
+  margin-left: 315px;
+  margin-top: 15px;
+  display: inline-block;
+}
+
+#banner ul{
+  font-size: 12px;
+  display: inline-block;
+  margin-left: 8px;
+  margin-top: 10px;
+  padding: 5px;
+  list-style: none;
+}
+
+li#telephone{
+  color: #35c8df;
+  font-size: 28px;
+  margin-right: 3px;
+}
+
+#middle h2{
+  color: #2c6ca2;
+  margin-left: 75px;
+  margin-top: 5px;
+}
+p#marginleft75{
+  margin-left: 75px;
+  margin-top: 10px;
+}
+
+#middle span{
+  color: #149fb5;
+}
+
+#middle a{
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+ul#margin{
+  margin-left: 95px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+img#client{
+  width: 300px;
+  margin-left: 200px;
+}
+
+#middle ol{
+  margin-left: 95px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#footer{
+  border-left: 4px solid #2c6ca2;
+  border-top: 4px solid #2c6ca2;
+  border-right: 4px solid #2c6ca2;
+  margin-left: 50px;
+  margin-top: 15px;
+
+}
+
+img#html{
+  display: inline-block;
+  width: 110px;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  position:
+}
+
+h2#big3{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+#footer p{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  margin-left: 130px;
+  margin-top: -80px;
+}
+
+span#pspan{
+  color: black;
+  font-style: italic;
+}
+
+p#pid{
+  display: inline-block;
+  vertical-align: top;
+  font-size: 15px;
+  margin-left: 130px;
+  margin-top: -40px;
+}
+
+#footer a{
+  color: #149fb5;
+}
