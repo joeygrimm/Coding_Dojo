@@ -139,7 +139,7 @@ a#learnmore{
 
 #body{
   width: 960px;
-  height: 500px;
+  height: 420px;
   vertical-align: top;
 }
 
@@ -194,18 +194,64 @@ h2#h2id{
   position: absolute;
   left: 665px;
   vertical-align: top;
-  background-color: purple;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#bodycontentRight h2{
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  line-height: 70%;
+  font-size: 23px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: lighter;
+  text-align: center;
+  color: #262626;
+}
+
+#bodycontentRight p{
+  margin-top: 10px;
+  margin-left: 10px;
+  line-height: 70%;
+  font-size: 13px;
+  color: #262626;
+  display: inline-block;
+}
+
+#bodycontentRight a{
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 13px;
+  color: #262626;
+  display: block;
+}
+
+#bodycontentRight img{
+  width: 115px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 20px;
+
 }
 
 #bottombody{
   width: 960px;
   height: 250px;
-  background-color: green;
+  background-color: black;
   vertical-align: top;
+  border-radius: 5px;
 }
 #footer{
   width: 960px;
   height: 50px;
   background-color: pink;
   vertical-align: top;
+  text-align: center;
+}
+
+#footer p{
+  font-size: 13px;
+  color: #262626;
 }
