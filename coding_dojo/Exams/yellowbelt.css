@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#wrapper{
+  width: 960px;
+  height: 1200px;
+  background-color: #eaeaea;
+  padding-left: 5px;
+}
+
+#header{
+  width: 960px;
+  height: 330px;
+  border-bottom: 1px solid #d6d6d6;
+  vertical-align: top;
+}
+
+.title{
+  width: 960px;
+  height: 50px;
+  background-color: black;
+  border-radius: 5px;
+  color: #e1e1e0;
+}
+
+.title h1{
+  font-size: 22px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: lighter;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+
+}
+
+h1#h1IT{
+  font-size: 22px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: lighter;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.title img{
+  width: 51px;
+  height: auto;
+  margin-left: 15px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.title ul{
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: top;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+.title ul, li{
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: top;
+  color: #b1adac;
+  font-size: 15px;
+  margin-right: 13px;
+}
+
+.title a{
+  display: inline-block;
+  text-decoration: none;
+  color: #b1adac;
+  vertical-align: top;
+}
+
+#headerContent{
+  width: 480px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+#headerContent h1{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#headerContent p{
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 0;
+  line-height: 80%;
+}
+
+a#learnmore{
+  font-size: 16px;
+  margin-left: 290px;
+  margin-top: 18px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center;
+  padding: 5px 15px;
+  color: #9e9e9e;
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#learnmore span{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 14px;
+  color: #9e9e9e;
+}
+
+#headerphoto{
+  width: 480px;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 480px;
+  position: absolute;
+  left: 0;
+}
+
+#headerphoto img{
+  margin-top: 23px;
+}
+
+
+#body{
+  width: 960px;
+  height: 500px;
+  vertical-align: top;
+}
+
+#bodycontent{
+  width: 660px;
+  height: 400px;
+  margin-top: 15px;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  color: #262626;
+}
+
+#bodycontent ul{
+  display: inline-block;
+}
+
+#bodycontent li{
+  display: inline-block;
+  border-right: 1px solid #d6d6d6;
+}
+
+li#list3{
+  border-right: none;
+}
+
+#bodycontent h2{
+  display: inline-block;
+  font-size: 23px;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-weight: lighter;
+  text-align: center;
+  color: #262626;
+}
+
+#bodycontent p{
+  margin-top: 10px;
+  line-height: 70%;
+  font-size: 13px;
+  color: #262626;
+}
+
+h2#h2id{
+  margin-top: 15px;
+}
+
+#bodycontentRight{
+  width: 300px;
+  height: 400px;
+  margin-top: 15px;
+  display: inline-block;
+  position: absolute;
+  left: 665px;
+  vertical-align: top;
+  background-color: purple;
+}
+
+#bottombody{
+  width: 960px;
+  height: 250px;
+  background-color: green;
+  vertical-align: top;
+}
+#footer{
+  width: 960px;
+  height: 50px;
+  background-color: pink;
+  vertical-align: top;
+}
