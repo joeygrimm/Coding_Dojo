@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#wrapper{
+  width: 960px;
+  height: auto;
+  background-image:url(https://cdn.colorlib.com/wp/wp-content/uploads/sites/2/jquery.jpg);
+  border-bottom: 3px solid black;
+}
+
+
+#top{
+  border-bottom: 3px solid black;
+  text-align: left;
+}
+
+#top h1{
+  margin-top: 20px;
+  background-color: maroon;
+  text-align: left;
+
+}
+
+#top h2{
+  margin-top: 20px;
+  text-align: left;
+
+}
+
+#top h3{
+  margin-top: 20px;
+  text-align: left;
+
+}
+
+#top img{
+  width: 350px;
+}
+
+#top p{
+  margin-top: 20px;
+}
+
+p#clickslide{
+  color: red;
+  text-decoration: underline;
+}
+
+#middle{
+  border-bottom: 3px solid black;
+}
+
+#middle h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p#ToggleRight{
+  text-align: right;
+}
+
+img#SlideDownImg{
+  width: 100px;
+}
+
+p#SlideToggleP{
+  text-decoration: underline;
+  color: yellow;
+}
+
+img#smileyface{
+  width: 200px;
+  margin: 10px 0;
+  display: block;
+}
+
+img#goodbyeface{
+  width: 200px;
+  margin: 10px 0;
+  display: block;
+}
+
+.green{
+  color: green;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#bottom{
+  border-bottom: 3px solid black;
+}
+
+#bottom h2{
+  margin: 20px 0;
+}
