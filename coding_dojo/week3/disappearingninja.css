@@ -1,0 +1,100 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#wrapper{
+  width: 960px;
+  height: 1000px;
+  background: gray; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(gray, red); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(gray, red); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(gray, red); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(gray, red); /* Standard syntax */
+}
+
+#wrapper img{
+  width: 210px;
+  padding: 0;
+  margin: 0;
+}
+
+#photo1{
+  width:225px;
+  height: 300px;
+  border-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#photo2{
+  width:225px;
+  height: 300px;
+  border-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#photo3{
+  width:225px;
+  height: 300px;
+  border-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#photo4{
+  width:225px;
+  height: 300px;
+  border-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#photo5{
+  width:225px;
+  height: 300px;
+  border-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#photo6{
+  width:225px;
+  height: 300px;
+  border-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#photo7{
+  width:225px;
+  height: 300px;
+  border-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#photo8{
+  width:225px;
+  height: 300px;
+  border-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+#footer button{
+  background-color: green;
+  color: white;
+  padding-left: 10px;
+  text-align: center;
+}

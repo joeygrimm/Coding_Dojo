@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Functions</title>
+    <link rel="stylesheet" href="jqueryfunctions.css">
+    <script type="text/javascript" src= "http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $( "#clickslide" ).click(function() {
+          alert("Hello There! Are you ready to learn?");
+          });
+        $( "#h2hidebutton" ).click(function() {
+          $( "#h2hide" ).hide( "slow" );
+          });
+          $('#moneybutton').click(function() {
+            $('#money').show("slow");
+          });
+          $("#ToggleButton").click(function() {
+            $("#ToggleLeft").toggle("slow");
+            $("#ToggleRight").toggle("slow");
+          });
+          $("#SlideDownButton").click(function() {
+            $("#SlideDownImg").slideDown('slow');
+            $("#SlideDownImg").slideUp('slow');
+          });
+          $("#SlideToggleP").click(function() {
+            $("#SlideToggleh2").slideToggle('slow');
+          });
+          $("#fadeinbutton").click(function() {
+            $("#smileyface").fadeIn("slow");
+          });
+          $("#fadeoutbutton").click(function() {
+            $("#goodbyeface").fadeOut("slow");
+          });
+          $('#ChangeClassButton').click(function(){
+      			$("#ChangeClassP").addClass("green");
+      		});
+          $('#BeforeButton').click(function(){
+      			$("#GoodBye").before("<p> Hello There!</>");
+      		});
+          $('#babybutton').click(function(){
+      			$("#HastaP").after("<p> Baby!!!!</>");
+      		});
+          $('#appendbutton').click(function(){
+      			$("#appendp").append(" Ralph is a great name and Seattle is a awesome city.");
+      		});
+          $('.html').click(function(){
+      			$("#html").html("<h1>See Its Replaced!</h1>");
+      		});
+          $('.attr').click(function(){
+      			var classVal = $("#attr").attr("class");
+      			$('#attr').append(classVal)
+      		});
+      		$('.attr2').click(function(){
+      			$("#attr").attr("class", "red");
+      		});
+          $('.val').click(function(){
+      			console.log($("#val").val());
+      		});
+      		$('.val2').click(function(){
+      			$('#val').val("Grimm");
+      		});
+      		$('.text').click(function(){
+      			$("#text").text("hello");
+      		});
+      		var ele = $("#data");
+      		$.data(ele, "name", "Grimm");
+      		$('.data').click(function(){
+      			var value = $.data(ele,"name");
+      			$("#data").after(value);
+      		});
+        });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="top">
+        <h1>Welcome to JQuery Functions</h1>
+        <p>Let's get started. Our first jQuery item is .click().</p>
+        <p id="clickslide"> Click anywhere on this sentence now!</p>
+        <p>Wasn't that cool!? This is what can happen when combine the .click() with alert().</p>
+        <h2 id="h2hide">Let's Learn to Hide</h2>
+        <p>The next item we are going to learn about it .hide().</p>
+        <p>.hide() is pretty self explaintory. It hides the element(s) you wish have hidden. <br> Click the button below to watch what happens.</p>
+        <button id="h2hidebutton" type="button" name="Hide Text Now!"> Hide Text Now!</button>
+        <p>Did you see that???<br> The header hide from us. This .hide() was used with a .click().</p>
+        <h3>I Want You to .show() Me the Money</h3>
+        <img id="money" style="display: none" src="http://az616578.vo.msecnd.net/files/2016/10/08/63611544510437076964939708_636016045463548403-1141137312_635935160236280609575526844_lottery-winner-money-stock-today-tease-160108_bf238d3c03a7005a50a6d6274d46083f.jpg" alt="A picture of an excited man with money floating throughout the air around him">
+        <p>This is also very straight forward. .show() makes something appear.<br>Click the button and see what happens!</p>
+        <button id="moneybutton" type="button" name="moneybutton"> Show me the money!</button>
+      </div>
+
+      <div id="middle">
+        <h2>Toggle to Here, Toggle to There</h2>
+        <p>We have learned about some pretty interesting functions for jQuery so for. Now we are going to see what the .toggle() fucntion can do.</p>
+        <p>Hit the button below for a demonstration</p>
+        <button id="ToggleButton" type="button" name="button">Toggle Now</button>
+        <p id="ToggleLeft"> I am here....</p>
+        <p id="ToggleRight" style="Display: none"> Now I am over here!</p>
+        <h2>Slide Down, Then Up</h2>
+        <p> Now we are going to learn more about what .slideUp() and .slideDown() can do.</p>
+        <p>Take a look!</p>
+        <button id="SlideDownButton" type="button" name="button">Slide On Down!!!</button>
+        <img id="SlideDownImg" style="display: none" src="http://media.gettyimages.com/photos/baseball-player-sliding-into-home-plate-as-catcher-tags-him-picture-id78457272?s=170667a" alt="A baseball player sliding into home base.">
+        <p>The image moves down then up.</p>
+        <h2 id="SlideToggleh2">Slide....Toggle</h2>
+        <p>Now we are going to see what .slideToggle() can do.</p>
+        <p id="SlideToggleP">Click here to make something happen!</p>
+        <p>I can click on the text to take away, and bring back the header</p>
+        <h2>Fade In and Fade Out</h2>
+        <p>Now let us learn about the .fadeIn() and fadeOut() functions.</p>
+        <img id="smileyface" style="display: none" src="https://i.pinimg.com/736x/21/34/17/213417133ff7baa0ae49401c9c8d2d72--smiley-emoji-smiley-faces.jpg" alt="Smiley face with sunglasses">
+        <button id="fadeinbutton" type="button" name="button">.fadeIn() button</button>
+        <img id="goodbyeface" src="https://previews.123rf.com/images/yayayoy/yayayoy1512/yayayoy151200003/50083908-Cute-emoticon-waving-hello-Stock-Vector-smiley-goodbye-hello.jpg" alt="Smiley face with sunglasses">
+        <button id="fadeoutbutton" type="button" name="button">.fadeOut() button</button>
+        <h2>.addClass()</h2>
+        <p>With the addClass() function, we can some element to a class.</p>
+        <p id="ChangeClassP">Click the button to change this paragraph's class.</p>
+        <button id="ChangeClassButton" type="button" name="button">Change Class</button>
+      </div>
+
+      <div id="bottom">
+        <h2>Before Function</h2>
+        <p>The before() function allows you insert data before some element. We will use a button to submit text below.</p>
+        <p id="GoodBye">Good bye. See you tomorrow.</p>
+        <button id="BeforeButton" type="button" name="button">.before() now!</button>
+        <h2>After Function</h2>
+        <p>The .after() function does the same thing as .before() but it places whatever input you'd like before whatever element you's like.</p>
+        <p id="HastaP">Hasta la vista.........</p>
+        <button id="babybutton" type="button" name="button"> Press this button to see what is said next...</button>
+        <h2>Append Function</h2>
+        <p>.append() function allows us to add items, text, or design to elements</p>
+        <p>Let us see it in .append() in action.</p>
+        <p id="appendp"> What is your name again and where are you from???</p>
+        <button id="appendbutton" type="button" name="button"> See how .append() works</button>
+        <h2>HTML Function</h2>
+        <p>The .html() function replaces the html within a element</p>
+    		<div id="html">I am a div<p>I am a p tag within the div</p></div>
+    		<button class="html">click to replace the div element with an h1 element</button>
+        <h2>Attr Function</h2>
+        <p>The .attr() function retreives or sets an attribute of an element</p>
+    		<p class="green" id="attr">I am a p tag with the class of green. Class=</p>
+    		<button class="attr">Click to retreive the class</button>
+    		<button class="attr2">click to change the class attribute to red</button>
+        <h2>Val Function</h2>
+        <p>The .val() funtion retreives or sets a value of an input</p>
+    		<input type="text" name="name" id="val">
+    		<button class="val">Click to retreive the value of the input. Look in your console</button>
+    		<button class="val2">Change the Input</button>
+        <h2>Text Function</h2>
+        <p>The .text() funtion replaces the text of an element</p>
+    		<p id="text">This text will be replaced</p>
+    		<button class="text">Click to replace the text</button>
+        <h2>Data Function</h2>
+        <p>The .data() function stores a data value in an element(hidden in javascript)</p>
+    		<p id="data">I have a name hidden in me. What is it?</p>
+    		<button class="data">Click to retreive the data</button>
+      </div>
+
+    </div>
+
+
+  </body>
+</html>
