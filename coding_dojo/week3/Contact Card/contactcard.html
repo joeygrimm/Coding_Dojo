@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Cards</title>
+    <link rel="stylesheet" href="contactcard.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("button").click(function() {
+            var first = $("#first_name").val();
+            var last = $('#last_name').val();
+            var desc = $('#description').val();
+            $('#users').append("<div id= 'contact_card'><h2>"+ first + " " + last + "</h2><p id= 'back_card'>" + desc +"</p></div>");
+            $('#first_name').val("");
+    				$('#last_name').val("");
+    				$('#description').val("");
+            return false;
+        });
+        $(document).on('click', '#contact_card', function() {
+          $(this).children().toggle();
+          /* Act on the event */
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+
+      <div id="contact_form">
+        <form class="about_you" action="index.html" method="post">
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" value="">
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" value="">
+          <label for="description">Tell us about yourself!</label>
+          <textarea id="description" rows="8" cols="80"></textarea>
+          <button type="button" name="button">Add User</button>
+        </form>
+      </div>
+
+      <div id="users">
+
+      </div>
+
+    </div>
+  </body>
+</html>
