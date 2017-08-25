@@ -1,0 +1,20 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#wrapper{
+  width: 960px;
+
+}
+
+#pokemon img{
+  width: auto;
+  display: inline-block;
+}
+
+#pokemon {
+  width: 800px;
+  display: inline-block;
+}
