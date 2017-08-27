@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#wrapper{
+  width: 960px;
+
+}
+
+#city_temp{
+  margin-top: 50px;
+}

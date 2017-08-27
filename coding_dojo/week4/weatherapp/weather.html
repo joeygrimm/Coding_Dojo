@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="weather.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('form').submit(function() {
+          var api_key = '2dc0377f4178f55130791652b302da6c';
+          var city = $('input#city_name').val();
+          $.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${api_key}`, function(res) {
+            console.log(res)
+            var html = '';
+            html += `<p> ${res['name']}: ${res['weather'][0]['description']} </p>`;
+            html += `<p> Temperature:${res['main']['temp']} F</p>`;
+            html += `<p> Coord: ${res['coord'].lat}, ${res['coord'].lon}`
+            html += `<p> Wind Speed: ${res['wind']['speed']} MPH</p>`
+            $('#city_temp').html(html);
+          },'json');
+          return false;
+
+          /* when clicking the button
+          take the name inputted into the search bar
+          place it at the end of the information in the url for the api
+          next, find the data for both the city's name and tempature
+          put the city name and tempature into elements in the div city_temp
+          make it so this can be searched over and over again*/
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="search">
+        <form>
+          <label for="city_name">Check the tempature conditions by city's name: </label>
+          <input type="text" id="city_name" value="">
+          <input type="submit" name="" value="Search Now">
+        </form>
+      </div>
+      <div id="city_temp">
+
+      </div>
+    </div>
+
+  </body>
+</html>
