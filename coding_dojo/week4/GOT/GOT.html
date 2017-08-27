@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Game of Thrones: Character Information</title>
+    <link rel="stylesheet" href="GOT.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('img').click(function() {
+          var house_id = this.id;
+          $.get(`https://anapioficeandfire.com/api/houses/` + house_id, function(res) {
+            var html_str = "";
+            html_str += `<h1>House Details</h1>`;
+            html_str += ` <h2> Name: ${res['name']}</h2>`;
+            html_str += `<h3> Words: ${res['words']} </h3>`;
+            html_str += `<p> Titles: ${res['titles']} </p>`;
+            $('#info').html(html_str);
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="photos">
+        <img id="17"src="baratheon.png" alt="Picture of a symbol for house barartheon">
+        <img id="229"src="lannister.jpg" alt="Picture of a symbol for house lannister">
+        <img id="362"src="stark.jpg" alt="Picture of a symbol for house stark">
+        <img id="378"src="targaryen.jpg" alt="Picture of a symbol for house targaryen">
+      </div>
+      <div id="info">
+
+      </div>
+    </div>
+  </body>
+</html>
