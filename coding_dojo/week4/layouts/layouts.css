@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 480px){
+    #navbar{visibility: hidden;}
+    .column-1{width: 15%;}
+    .column-2{width: 15%;}
+    .column-3{width: 15%;}
+    .column-4{width: 100%;}
+}
+
+@media only screen and (min-width: 481px){
+  .column-1{width: 15%;}
+  .column-2{width: 15%;}
+  .column-3{width: 15%;}
+  .column-4{width: 15%;}
+}
+
+@media only screen and (min-width: 1024px){
+  .column-1{width: 15%;}
+  .column-2{width: 15%;}
+  .column-3{width: 15%;}
+  .column-4{width: 15%;}
+}
+
+#wrapper{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header{
+  background-color: gray;
+  padding: 10px;
+}
+
+.column-1 {
+  float: left;
+  clear: none;
+  margin: 20px;
+}
+
+.column-2 {
+  float: left;
+  clear: none;
+  margin: 20px;
+}
+
+.column-3 {
+  float: left;
+  clear: none;
+  margin: 20px;
+}
+
+.column-4 {
+  float: left;
+  clear: none;
+  margin: 20px;;
+}
+
+#navbar{
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 3em;
+}
+
+h2{
+  font-size: 1.25em;
+}
+h3{
+  font-size: 1.5em;
+}
+h4{
+  font-size: 1.25em;
+}
+a{
+  background-color: gray;
+  padding: 5px;
+}
